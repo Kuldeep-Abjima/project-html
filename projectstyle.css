@@ -1,0 +1,164 @@
+.body{
+    font-family: 'Open Sans',sans-serif;
+    background-color:rgb(224,225,227);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    background-color:  #f2f2f2;;
+}
+.HeadText{
+    text-align: center;
+    margin-top: 156px;
+}
+.Heading{
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+    letter-spacing: 5px;
+}
+.Price{
+    font-weight: 400;
+    text-align: center;
+    font-size: 90px;
+}
+.btn{
+    height: 52px;
+    width: 179px;
+    border: none;
+    color: white;
+    background-color: #88aaec;
+    font-size: 25px;
+}
+.image{
+    margin-left: 27px;
+    margin-bottom: 33px;
+}
+.img{
+    height: 640px;
+    width: 670px;
+}
+.textBox{
+    background-color: white;
+    margin: 50px;
+}
+.long-text{
+    margin-top: 39px;
+    text-align: center;
+    margin-left: 37px;
+    margin-right: 28px;
+}
+.button{
+        text-align: center;
+    margin-top: 74px;
+}
+.btn:hover{
+    background-color: #456095;
+}
+p{
+    color: #d9d9d9;
+}
+.navbar > ul > li{
+    float: left;
+    list-style: none;
+    margin-left: 294px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+    transition: 1s ease-out all;
+}
+
+.navbar ul{
+    overflow: auto;
+}
+.navbar{
+    background-color: #f2f2f2;
+    padding-bottom: 2px;
+}
+.logo{
+    width: 4%;
+    margin-bottom: -23px;
+    transition: 1s ease-in-out all;
+}
+.navbar > ul > li:hover{
+    font-size: 35px;
+    font-weight:bolder;
+    
+}
+.simg{
+    width: 28px;
+    height: 27px;
+    margin-left: 183px;
+    margin-bottom: -5px;
+    margin-top: -19px;
+}
+.nav2{
+    background-color: black;
+    color: white;
+}
+.logo:hover{
+    width: 5%;
+    transform: rotate3d(0, 1, 0.5, 3.142rad);
+
+}
+.container-nav-foot{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    
+}
+.folist{
+    list-style: none;
+}
+.fo,.fol{
+    font-family: 'Anton', sans-serif;
+    font-size: 14px;
+    padding: 12px;
+    letter-spacing: 1px;
+}
+
+
+.fo:hover{
+    letter-spacing: 3px;
+    font-size: 18px;
+
+}
+.folist2,.folist3,.imglist{
+    list-style: none;
+}
+.fo2{
+    padding: 12px;
+    font-size: 12px;
+    color: #7e7e7e;
+
+}
+.fo2:hover{
+    color: white;
+}
+iframe{
+    width: 300px;
+    height: 300px;
+    transition: 1s ease-in-out all;
+}
+.map{
+    margin-left: auto;
+}
+iframe:hover{
+    width: 400px;
+    height: 400px;
+}
+.twlogo{
+    padding: 20px;
+    float: left;
+    height: 45px;
+    width: 45px;
+}
+.imglist{
+    display: flex;
+    margin-left: 454px;
+}
+.twlogo:hover{
+    height: 50px;
+    width: 50px;
+}
